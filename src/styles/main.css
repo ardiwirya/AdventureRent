@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: 550;
+  color: #101010;
+  background-color: #fbf6ee;
+}
+
+button,
+a,
+input,
+textarea {
+  min-width: 44px;
+  min-height: 44px;
+  margin: 6px;
+}
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.title {
+  padding: 1rem;
+  min-width: 100%;
+  margin: 2rem auto;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.title h1 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.row {
+  display: flex;
+  min-width: 100%;
+  padding: 0 auto;
+  margin: 1rem auto;
+}
+
+.adventurerent-footer-links a:hover,
+.adventurerent-footer-links p:hover {
+  font-weight: bolder;
+  color: #65b741;
+}
+
+@media (max-width: 50rem) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
